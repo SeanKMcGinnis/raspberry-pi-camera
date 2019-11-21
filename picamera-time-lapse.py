@@ -3,9 +3,9 @@ import picamera
 
 #########################################################################################
 ## Capture Images with Picamera
-## delay            - REQUIRED - time delay to start taking pictures after initializing
+## delay            - REQUIRED - time delay in minutes to start taking pictures after initializing
 ## flight_duration  - REQUIRED - estimated length of flight in minutes
-## image_interval   - REQUIRED - delay betwen pictures
+## image_interval   - REQUIRED - delay betwen pictures in seconds
 #########################################################################################
 
 def captureImages(delay, flight_duration, image_interval):
